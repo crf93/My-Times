@@ -1,0 +1,23 @@
+.Logo {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: mediumAquamarine;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 5;
+}
+
+.Logo span{
+  display: inline-block;
+  margin: 20px 20px 20px 20px
+
+}
+
+.Logo img{
+  margin-left: 20px;
+}
