@@ -1,7 +1,7 @@
 body{
   margin:0 auto;
 }
-.Logo {
+.Header{
   display: flex;
   font-family: Verdana;
   font-size: 14px;
@@ -15,22 +15,54 @@ body{
   z-index: 5;
 }
 
-.Logo span{
+.Header span{
   display: inline-block;
   margin: 20px 20px 20px 20px
 
 }
 
-.Logo img{
+.Header img{
   margin-left: 20px;
 }
 
-.Logo p{
+.Header p{
   align-items: center;
   margin-left: 10px;
   width: 100%;
 }
 
+.Header a{
+  color: black;
+}
 #main-container{
+display:flex;
+margin: auto;
+width: 1300px;
+font-family: Georgia;
+font-size: 17px;
+color: black;
+justify-content: space-between;
+position: relative;
+top: 100px;
+}
 
+.column1-section1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.column1-section1-2{
+  display: flex;
+  flex-direction: row;
+}
+
+.column1-section1{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
