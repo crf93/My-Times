@@ -1,3 +1,6 @@
+body{
+  margin:0 auto;
+}
 .Logo {
   display: flex;
   font-family: Verdana;
@@ -20,4 +23,14 @@
 
 .Logo img{
   margin-left: 20px;
+}
+
+.Logo p{
+  align-items: center;
+  margin-left: 10px;
+  width: 100%;
+}
+
+#main-container{
+
 }
